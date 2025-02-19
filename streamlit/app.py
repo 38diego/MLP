@@ -485,7 +485,7 @@ axes[0].set_title(f"Distribución de Probabilidades Predichas para el digito {di
 axes[0].set_xlabel("Probabilidad predicha")
 axes[0].set_ylabel("Frecuencia")
 
-axes[1].plot(recall, precision, label=f'F1 max = {best_f1:.2f}')
+axes[1].plot(recall, precision, label=f'F1 max = {best_f1:.2f}\nUbral = {best_threshold:.4f}')
 axes[1].scatter(recall[best_idx], precision[best_idx], marker='o', color='black')
 axes[1].set_title(f"Curva Precisión-Recall para el digito {digito}")
 axes[1].legend()
