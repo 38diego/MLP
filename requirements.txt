@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+pandas
+numpy
+matplotlib
+os
+json
+tf-keras
