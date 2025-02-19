@@ -7,6 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 import numpy as np  # Biblioteca para operaciones matemáticas y manejo de matrices
 import matplotlib.pyplot as plt  # Para graficar datos y visualizar resultados
+from sklearn.metrics import precision_recall_curve
 
 # Importa el conjunto de datos MNIST, un dataset clásico para clasificación de dígitos escritos a mano
 from tf_keras.datasets import mnist
@@ -465,16 +466,31 @@ plt.title("Matriz de Confusión")
 with col2:
     st.pyplot(plt)
 
+#print("\n🔹 Mejor umbral y F1-score para cada clase:")
+#for cls, (thresh, f1) in best_thresholds.items():
+#    print(f"Clase {cls}: Umbral = {thresh:.4f}, F1-score = {f1:.4f}")
 
-# 3️⃣ **Confianza en las Predicciones**
-plt.figure(figsize=(20, 6))
-for i in range(len(np.unique(test_labels))):  # Iterar por cada clase
-    plt.hist(y_pred_probs[test_labels == i, i], bins=20, alpha=0.5, label=f"Clase {i}")
-plt.xlabel("Probabilidad predicha")
-plt.ylabel("Frecuencia")
-plt.title("Distribución de Probabilidades Predichas por Clase")
-plt.legend()
+digito = st.selectbox("Eliga un digito:",sorted(np.unique(test_labels)))
+
+precision, recall, thresholds = precision_recall_curve(to_categorical(test_labels)[:, digito], y_pred_probs[:, digito])
+f1_scores = 2 * (precision * recall) / (precision + recall)
+
+best_idx = np.argmax(f1_scores[:-1])  # Índice del mejor F1-score (evita NaN)
+best_threshold = thresholds[best_idx]
+best_f1 = f1_scores[best_idx]
+
+fig, axes = plt.subplots(ncols=2, figsize=(20, 6))
+axes[0].hist(y_pred_probs[test_labels == digito, digito], bins=20, alpha=0.5)
+axes[0].set_title(f"Distribución de Probabilidades Predichas para el digito {digito}")
+axes[0].set_xlabel("Probabilidad predicha")
+axes[0].set_ylabel("Frecuencia")
+
+axes[1].plot(recall, precision, label=f'F1 max = {best_f1:.2f}')
+axes[1].scatter(recall[best_idx], precision[best_idx], marker='o', color='black')
+axes[1].set_title(f"Curva Precisión-Recall para el digito {digito}")
+axes[1].legend()
 st.pyplot(plt)
+
 
 # 4️⃣ **Análisis de Errores**: Ejemplos mal clasificados
 errores_idx = np.where(y_pred_classes != test_labels)[0]  # Índices de errores
@@ -482,36 +498,21 @@ num_ejemplos = min(20, len(errores_idx))  # Mostrar hasta 5 errores
 
 _, (imagenes_test, _) = mnist.load_data()
 
-import matplotlib.pyplot as plt
-
 filas = 4
 columnas = 5
 
+errores_filtrados = [idx for idx in errores_idx if test_labels[idx] == digito]
+
+num_ejemplos = min(20, len(errores_filtrados))
+filas, columnas = 4, 5
+
 plt.figure(figsize=(15, 6))
-for i, idx in enumerate(errores_idx[:filas * columnas]):
+for i, idx in enumerate(errores_filtrados[:filas * columnas]):
     plt.subplot(filas, columnas, i + 1)
-    plt.imshow(imagenes_test[idx].squeeze(), cmap='gray')  # Ajustar si son imágenes en RGB
+    plt.imshow(imagenes_test[idx].squeeze(), cmap='gray')
     plt.title(f"Real: {test_labels[idx]}\nPred: {y_pred_classes[idx]}")
     plt.axis("off")
 
-plt.suptitle("Ejemplos Mal Clasificados")
+plt.suptitle(f"Ejemplos mal clasificados para {digito}")
 plt.tight_layout()
 st.pyplot(plt)
-
-# 5️⃣ **Encontrar el Mejor Umbral para cada Clase**
-from sklearn.metrics import precision_recall_curve
-
-best_thresholds = {}
-for i in range(to_categorical(test_labels).shape[1]):  # Para cada clase en one-hot encoding
-    precision, recall, thresholds = precision_recall_curve(to_categorical(test_labels)[:, i], y_pred_probs[:, i])
-    f1_scores = 2 * (precision * recall) / (precision + recall)
-
-    best_idx = np.argmax(f1_scores[:-1])  # Índice del mejor F1-score (evita NaN)
-    best_threshold = thresholds[best_idx]
-    best_f1 = f1_scores[best_idx]
-
-    best_thresholds[i] = (best_threshold, best_f1)  # Guardar umbral y F1-score
-
-print("\n🔹 Mejor umbral y F1-score para cada clase:")
-for cls, (thresh, f1) in best_thresholds.items():
-    print(f"Clase {cls}: Umbral = {thresh:.4f}, F1-score = {f1:.4f}")
