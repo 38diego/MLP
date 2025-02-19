@@ -91,7 +91,7 @@ tuner.search(train_images, to_categorical(train_labels),
 >>> val_accuracy: 0.9692000150680542
 
 >>> Best val_accuracy So Far: 0.9818999767303467
->>> Total elapsed time: 01h 05m 06s
+>>> Total elapsed time: 02h 33m 06s
 
 best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
 
