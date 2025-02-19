@@ -5,3 +5,4 @@ numpy
 matplotlib
 tf-keras
 seaborn
+sklearn
