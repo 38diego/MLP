@@ -3,5 +3,4 @@ tensorflow
 pandas
 numpy
 matplotlib
-json
 tf-keras
