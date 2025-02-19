@@ -144,7 +144,6 @@ for root, dirs, files in os.walk(folder_path):
             for dir_name in dirs:
                 dir_path = os.path.join(root, dir_name)
                 for file_name in os.listdir(dir_path):
-                    print(file_name)
                     if file_name.startswith("trial"):
                         trial = os.path.join(dir_path, file_name)
                         with open(trial, "r") as f:
