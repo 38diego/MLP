@@ -1,0 +1,16 @@
+,Hiperparametros,epocas,lotes,train_f1,test_f1,train_accuracy
+0,"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",10,32,0.9768165946006775,0.9663999676704407,0.9664000272750854
+1,"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",10,32,0.9447166323661804,0.9444999694824219,0.9445000290870667
+2,"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",10,32,0.9863666296005249,0.9761999249458313,0.9761999845504761
+3,"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",10,32,0.9514999389648438,0.950999915599823,0.9509999752044678
+4,"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",10,32,0.9918165802955627,0.9774999618530273,0.9775000214576721
+5,"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",10,32,0.9535166025161743,0.9512999653816223,0.9513000249862671
+6,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",10,32,0.9760665893554688,0.968299925327301,0.9682999849319458
+7,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",10,32,0.9824832677841187,0.9703999161720276,0.9703999757766724
+8,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",10,32,0.9818499684333801,0.9719999432563782,0.972000002861023
+9,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",10,32,0.9563332796096802,0.9540999531745911,0.9541000127792358
+10,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",10,32,0.9551166296005249,0.9520999193191528,0.9520999789237976
+11,"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",10,32,0.9526665806770325,0.9493999481201172,0.949400007724762
+12,"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",10,32,0.9882499575614929,0.9754999279975891,0.9754999876022339
+13,"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",10,32,0.98909991979599,0.9758999347686768,0.9758999943733215
+14,"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",10,32,0.9896665811538696,0.9777999520301819,0.9778000116348267

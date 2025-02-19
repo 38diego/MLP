@@ -1,0 +1,469 @@
+Hiperparametros,epocas,lotes,train_f1,test_f1,train_accuracy,test_accuracy
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",32,10,0.9775499701499939,0.9686999320983887,0.9775500297546387,0.9686999917030334
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",32,10,0.944149911403656,0.9424999356269836,0.9441499710083008,0.9424999952316284
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",32,10,0.9904165863990784,0.9752999544143677,0.9904166460037231,0.9753000140190125
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",32,10,0.9507666230201721,0.9480999112129211,0.9507666826248169,0.9480999708175659
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",32,10,0.9955165982246399,0.9792999625205994,0.9955166578292847,0.9793000221252441
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",32,10,0.9533665776252747,0.9538999199867249,0.9533666372299194,0.9538999795913696
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,10,0.9812832474708557,0.9672999382019043,0.9812833070755005,0.9672999978065491
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,10,0.9787832498550415,0.9737999439239502,0.9787833094596863,0.973800003528595
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,10,0.9832332730293274,0.9724999666213989,0.9832333326339722,0.9725000262260437
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,10,0.9573665857315063,0.9554999470710754,0.9573666453361511,0.9555000066757202
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,10,0.9538499116897583,0.953999936580658,0.9538499712944031,0.9539999961853027
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,10,0.9551166296005249,0.9530999660491943,0.9551166892051697,0.9531000256538391
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,10,0.9827666282653809,0.9743999242782593,0.9827666878700256,0.974399983882904
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,10,0.99073326587677,0.9762999415397644,0.9907333254814148,0.9763000011444092
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,10,0.9899332523345947,0.9756999611854553,0.9899333119392395,0.9757000207901001
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,10,0.9618166089057922,0.9603999257087708,0.961816668510437,0.9603999853134155
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,10,0.9631499648094177,0.9590999484062195,0.9631500244140625,0.9591000080108643
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,10,0.9629333019256592,0.9608999490737915,0.962933361530304,0.9609000086784363
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,10,0.9874332547187805,0.9785999655723572,0.9874333143234253,0.978600025177002
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,10,0.9903832674026489,0.9776999354362488,0.9903833270072937,0.9776999950408936
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,10,0.9920499324798584,0.9799999594688416,0.9920499920845032,0.9800000190734863
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,10,0.9673166275024414,0.9635999202728271,0.9673166871070862,0.9635999798774719
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,10,0.9671666026115417,0.9632999300956726,0.9671666622161865,0.9632999897003174
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,10,0.9671332836151123,0.9642999172210693,0.9671333432197571,0.9642999768257141
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.9815332889556885,0.9689999222755432,0.9815333485603333,0.968999981880188
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9805832505226135,0.9691999554634094,0.9805833101272583,0.9692000150680542
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9817999601364136,0.9726999402046204,0.9818000197410583,0.9726999998092651
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.9769832491874695,0.9698999524116516,0.9769833087921143,0.9699000120162964
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.9787166118621826,0.9685999155044556,0.9787166714668274,0.9685999751091003
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9845666289329529,0.9738999605178833,0.9845666885375977,0.9739000201225281
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.9855332970619202,0.973099946975708,0.9855333566665649,0.9731000065803528
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.9831499457359314,0.9727999567985535,0.9831500053405762,0.9728000164031982
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.9866499304771423,0.9759999513626099,0.9866499900817871,0.9760000109672546
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.9621332883834839,0.9584999680519104,0.9621333479881287,0.9585000276565552
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9614999294281006,0.9577999114990234,0.9614999890327454,0.9577999711036682
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9624665975570679,0.9577999114990234,0.9624666571617126,0.9577999711036682
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.9639332890510559,0.9591999650001526,0.9639333486557007,0.9592000246047974
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.962483286857605,0.9589999914169312,0.9624833464622498,0.9589999914169312
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9635832905769348,0.9594999551773071,0.9635833501815796,0.9595000147819519
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.9640999436378479,0.9586999416351318,0.9641000032424927,0.9587000012397766
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.959316611289978,0.9555999636650085,0.9593166708946228,0.9556000232696533
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.9636499285697937,0.9595999121665955,0.9636499881744385,0.9595999717712402
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.9853499531745911,0.9750999212265015,0.9853500127792358,0.9750999808311462
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9866166114807129,0.9758999347686768,0.9866166710853577,0.9758999943733215
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9891499280929565,0.9755999445915222,0.9891499876976013,0.975600004196167
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.9844499230384827,0.97489994764328,0.9844499826431274,0.9749000072479248
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.9855666160583496,0.9773999452590942,0.9855666756629944,0.977400004863739
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9884499311447144,0.9757999181747437,0.9884499907493591,0.9757999777793884
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.9892999529838562,0.9768999814987183,0.989300012588501,0.9768999814987183
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.9897832870483398,0.973599910736084,0.9897833466529846,0.9735999703407288
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.9894999265670776,0.974299967288971,0.9894999861717224,0.9743000268936157
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.969333291053772,0.9639999270439148,0.9693333506584167,0.9639999866485596
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9676666259765625,0.964199960231781,0.9676666855812073,0.9642000198364258
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9681499600410461,0.9643999338150024,0.9681500196456909,0.9643999934196472
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.9704833030700684,0.9662999510765076,0.9704833626747131,0.9663000106811523
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.9673332571983337,0.9629999399185181,0.9673333168029785,0.9629999995231628
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9692665934562683,0.965999960899353,0.9692666530609131,0.9660000205039978
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.970183253288269,0.9662999510765076,0.9701833128929138,0.9663000106811523
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.9680332541465759,0.9627999663352966,0.9680333137512207,0.9628000259399414
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.967033326625824,0.9630999565124512,0.967033326625824,0.963100016117096
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.9904999136924744,0.9785999655723572,0.9904999732971191,0.978600025177002
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9887499213218689,0.977899968624115,0.9887499809265137,0.9779000282287598
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9881332516670227,0.9802999496459961,0.9881333112716675,0.9803000092506409
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.9888832569122314,0.9773999452590942,0.9888833165168762,0.977400004863739
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.9917832612991333,0.9767999649047852,0.9917833209037781,0.9768000245094299
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9870666265487671,0.977899968624115,0.9870666861534119,0.9779000282287598
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.9928999543190002,0.9798999428749084,0.992900013923645,0.9799000024795532
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.9890499114990234,0.977899968624115,0.9890499711036682,0.9779000282287598
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.9872332811355591,0.9794999361038208,0.9872333407402039,0.9794999957084656
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,10,0.974816620349884,0.9674999117851257,0.9748166799545288,0.9674999713897705
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,10,0.9734499454498291,0.9689999222755432,0.9734500050544739,0.968999981880188
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,10,0.9727999567985535,0.9675999283790588,0.9728000164031982,0.9675999879837036
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,10,0.976183295249939,0.9688999652862549,0.9761833548545837,0.9689000248908997
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,10,0.9743832945823669,0.9670999646186829,0.9743833541870117,0.9671000242233276
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,10,0.9719332456588745,0.9675999283790588,0.9719333052635193,0.9675999879837036
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,10,0.9725666046142578,0.9675999283790588,0.9725666642189026,0.9675999879837036
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,10,0.9766666293144226,0.9708999395370483,0.9766666889190674,0.9708999991416931
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,10,0.9740332961082458,0.9692999124526978,0.9740333557128906,0.9692999720573425
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",64,10,0.9762166142463684,0.9675999283790588,0.9762166738510132,0.9675999879837036
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",64,10,0.9278166890144348,0.9296998977661133,0.9278166890144348,0.9297000169754028
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",64,10,0.985933244228363,0.9743999242782593,0.9859333038330078,0.974399983882904
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",64,10,0.9325832724571228,0.9370999336242676,0.9325833320617676,0.9370999932289124
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",64,10,0.9919165968894958,0.9787999391555786,0.9919166564941406,0.9787999987602234
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",64,10,0.9364832639694214,0.9377999305725098,0.9364833235740662,0.9377999901771545
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,10,0.9764832854270935,0.9687999486923218,0.9764833450317383,0.9688000082969666
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,10,0.9810499548912048,0.9707999229431152,0.9810500144958496,0.97079998254776
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,10,0.985849916934967,0.9727999567985535,0.9858499765396118,0.9728000164031982
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,10,0.9392333030700684,0.9404999017715454,0.9392333626747131,0.940500020980835
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,10,0.9409832954406738,0.9407999515533447,0.9409833550453186,0.9408000111579895
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,10,0.9402666091918945,0.9422999620437622,0.9402666687965393,0.942300021648407
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,10,0.9879165887832642,0.975399911403656,0.9879166483879089,0.9753999710083008
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,10,0.9877166152000427,0.9747999310493469,0.9877166748046875,0.9747999906539917
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,10,0.9881332516670227,0.9759999513626099,0.9881333112716675,0.9760000109672546
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,10,0.9456332921981812,0.9459999203681946,0.9456333518028259,0.9459999799728394
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,10,0.9444332718849182,0.9425999522209167,0.944433331489563,0.9426000118255615
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,10,0.9430332779884338,0.9426999688148499,0.9430333375930786,0.9427000284194946
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,10,0.9931999444961548,0.9770999550819397,0.9932000041007996,0.9771000146865845
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,10,0.9940499663352966,0.9786999225616455,0.9940500259399414,0.9786999821662903
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,10,0.9885499477386475,0.9777999520301819,0.9885500073432922,0.9778000116348267
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,10,0.9497832655906677,0.9508999586105347,0.9497833251953125,0.9509000182151794
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,10,0.9505999684333801,0.9517999887466431,0.9506000280380249,0.9517999887466431
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,10,0.9476832747459412,0.9487999677658081,0.9476833343505859,0.9488000273704529
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9792499542236328,0.9683999419212341,0.9792500138282776,0.9684000015258789
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9732332825660706,0.9699999690055847,0.9732333421707153,0.9700000286102295
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9800832867622375,0.9707999229431152,0.9800833463668823,0.97079998254776
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.9812166094779968,0.9687999486923218,0.9812166690826416,0.9688000082969666
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9835999608039856,0.9710999131202698,0.9836000204086304,0.9710999727249146
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.9791832566261292,0.9709999561309814,0.9791833162307739,0.9710000157356262
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9807332754135132,0.9719999432563782,0.980733335018158,0.972000002861023
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9818499684333801,0.9725999236106873,0.9818500280380249,0.972599983215332
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.9866499304771423,0.9737999439239502,0.9866499900817871,0.973800003528595
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9433165788650513,0.9418999552726746,0.943316638469696,0.9419000148773193
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9421999454498291,0.9436999559402466,0.9422000050544739,0.9437000155448914
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9451999664306641,0.9446999430656433,0.9452000260353088,0.9447000026702881
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.9450499415397644,0.9465999603271484,0.9450500011444092,0.9466000199317932
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9489333033561707,0.9496999382972717,0.9489333629608154,0.9496999979019165
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.9458832740783691,0.9434999227523804,0.9458833336830139,0.9434999823570251
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9494499564170837,0.947399914264679,0.9494500160217285,0.9473999738693237
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9460166096687317,0.9459999203681946,0.9460166692733765,0.9459999799728394
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.947066605091095,0.947700023651123,0.9470666646957397,0.947700023651123
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9827832579612732,0.9755999445915222,0.982783317565918,0.975600004196167
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9845832586288452,0.9720999598503113,0.98458331823349,0.972100019454956
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9880833029747009,0.9740999341011047,0.9880833625793457,0.9740999937057495
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.9824332594871521,0.9737999439239502,0.9824333190917969,0.973800003528595
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9900665879249573,0.9761999249458313,0.990066647529602,0.9761999845504761
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.9900499582290649,0.9746999144554138,0.9900500178337097,0.9746999740600586
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9885832667350769,0.9762999415397644,0.9885833263397217,0.9763000011444092
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9858165979385376,0.9758999347686768,0.9858166575431824,0.9758999943733215
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.9911999106407166,0.9762999415397644,0.9911999702453613,0.9763000011444092
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9535333514213562,0.9526999592781067,0.9535333514213562,0.9527000188827515
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9548666477203369,0.9528999328613281,0.9548666477203369,0.9528999924659729
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9517999887466431,0.9490999579429626,0.9517999887466431,0.9491000175476074
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.9525666236877441,0.9510999321937561,0.9525666832923889,0.9510999917984009
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9515499472618103,0.9512999653816223,0.9515500068664551,0.9513000249862671
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.952549934387207,0.9521999359130859,0.9525499939918518,0.9521999955177307
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9536499381065369,0.9546999335289001,0.9536499977111816,0.9546999931335449
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9540499448776245,0.9528999328613281,0.9540500044822693,0.9528999924659729
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.9524332880973816,0.9535999298095703,0.9524333477020264,0.9535999894142151
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9879832863807678,0.9768999814987183,0.9879833459854126,0.9768999814987183
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9875665903091431,0.9782999157905579,0.9875666499137878,0.9782999753952026
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9866499304771423,0.9777999520301819,0.9866499900817871,0.9778000116348267
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.988933265209198,0.9774999618530273,0.9889333248138428,0.9775000214576721
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9919666051864624,0.9784999489784241,0.9919666647911072,0.9785000085830688
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.9923499226570129,0.9775999188423157,0.9923499822616577,0.9775999784469604
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9880999326705933,0.9797999262809753,0.988099992275238,0.9797999858856201
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9906332492828369,0.9780999422073364,0.9906333088874817,0.9781000018119812
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.9903332591056824,0.9792999625205994,0.9903333187103271,0.9793000221252441
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,10,0.9565499424934387,0.9537999629974365,0.9565500020980835,0.9538000226020813
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,10,0.9569832682609558,0.9553999304771423,0.9569833278656006,0.9553999900817871
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,10,0.9576166272163391,0.9569999575614929,0.9576166868209839,0.9570000171661377
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,10,0.9554499387741089,0.9533999562263489,0.9554499983787537,0.9534000158309937
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,10,0.9574165940284729,0.9553999304771423,0.9574166536331177,0.9553999900817871
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,10,0.9581832885742188,0.9577999114990234,0.9581833481788635,0.9577999711036682
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,10,0.9586166143417358,0.9589999914169312,0.9586166739463806,0.9589999914169312
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,10,0.9570165872573853,0.9555999636650085,0.95701664686203,0.9556000232696533
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,10,0.9578832983970642,0.9586999416351318,0.957883358001709,0.9587000012397766
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",28,10,0.9713166356086731,0.9639999270439148,0.9713166952133179,0.9639999866485596
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",28,10,0.9132000207901001,0.9177999496459961,0.9132000207901001,0.9178000092506409
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",28,10,0.9820332527160645,0.9723999500274658,0.9820333123207092,0.9724000096321106
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",28,10,0.9131332635879517,0.9188999533653259,0.9131333231925964,0.9189000129699707
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",28,10,0.9916499257087708,0.9784999489784241,0.9916499853134155,0.9785000085830688
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",28,10,0.9203166365623474,0.922999918460846,0.9203166961669922,0.9229999780654907
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,10,0.9713665843009949,0.9639999270439148,0.9713666439056396,0.9639999866485596
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,10,0.9799166321754456,0.9698999524116516,0.9799166917800903,0.9699000120162964
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,10,0.9807832837104797,0.9697998762130737,0.9807833433151245,0.9697999954223633
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,10,0.9203499555587769,0.924799919128418,0.9203500151634216,0.9247999787330627
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,10,0.9187666177749634,0.9213999509811401,0.9187666773796082,0.9214000105857849
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,10,0.9226499795913696,0.9264999628067017,0.9226499795913696,0.9265000224113464
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,10,0.9851332902908325,0.9737999439239502,0.9851333498954773,0.973800003528595
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,10,0.9866666197776794,0.9754999279975891,0.9866666793823242,0.9754999876022339
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,10,0.9895832538604736,0.974299967288971,0.9895833134651184,0.9743000268936157
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,10,0.9243999123573303,0.9305999279022217,0.9243999719619751,0.9305999875068665
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,10,0.925983190536499,0.9315999150276184,0.9259833097457886,0.9315999746322632
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,10,0.9258165955543518,0.929599940776825,0.9258166551589966,0.9296000003814697
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,10,0.9927166104316711,0.9779999256134033,0.9927166700363159,0.9779999852180481
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,10,0.9906332492828369,0.9767999649047852,0.9906333088874817,0.9768000245094299
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,10,0.994149923324585,0.9806999564170837,0.9941499829292297,0.9807000160217285
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,10,0.9275165796279907,0.9314999580383301,0.9275166392326355,0.9315000176429749
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,10,0.931566596031189,0.9352999329566956,0.9315666556358337,0.9352999925613403
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,10,0.9293999671936035,0.9314999580383301,0.9294000267982483,0.9315000176429749
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.975399911403656,0.9667999148368835,0.9753999710083008,0.9667999744415283
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.9772666096687317,0.9668999314308167,0.9772666692733765,0.9668999910354614
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.9795999526977539,0.9687999486923218,0.9796000123023987,0.9688000082969666
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.9801332950592041,0.971299946308136,0.9801333546638489,0.9713000059127808
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9804165959358215,0.9691999554634094,0.9804166555404663,0.9692000150680542
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.9816832542419434,0.9693999290466309,0.9816833138465881,0.9693999886512756
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9820499420166016,0.9711999297142029,0.9820500016212463,0.9711999893188477
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9806665778160095,0.9715999364852905,0.9806666374206543,0.9715999960899353
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9850332736968994,0.9699999690055847,0.9850333333015442,0.9700000286102295
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.9267499446868896,0.9289999604225159,0.9267500042915344,0.9290000200271606
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.9274332523345947,0.9296998977661133,0.9274333119392395,0.9297000169754028
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.9275499582290649,0.9318999648094177,0.9275500178337097,0.9319000244140625
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.9271665811538696,0.9303998947143555,0.9271666407585144,0.930400013923645
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9249499440193176,0.9275999665260315,0.9249500036239624,0.9276000261306763
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.9225332140922546,0.9290999174118042,0.9225333333015442,0.929099977016449
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9287666082382202,0.933199942111969,0.928766667842865,0.9332000017166138
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9294832944869995,0.9316999316215515,0.9294833540916443,0.9316999912261963
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9326665997505188,0.9341999292373657,0.9326666593551636,0.9341999888420105
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.9823832511901855,0.9728999137878418,0.9823833107948303,0.9728999733924866
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.9858666062355042,0.9737999439239502,0.9858666658401489,0.973800003528595
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.9883332848548889,0.9757999181747437,0.9883333444595337,0.9757999777793884
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.9877166152000427,0.9746999144554138,0.9877166748046875,0.9746999740600586
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9824499487876892,0.9736999273300171,0.982450008392334,0.9736999869346619
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.983966588973999,0.9736999273300171,0.9839666485786438,0.9736999869346619
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9861832857131958,0.9755999445915222,0.9861833453178406,0.975600004196167
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9877166152000427,0.9754999279975891,0.9877166748046875,0.9754999876022339
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9866166114807129,0.9757999181747437,0.9866166710853577,0.9757999777793884
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.9325166344642639,0.9342999458312988,0.9325166940689087,0.9343000054359436
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.9361665844917297,0.9369999170303345,0.9361666440963745,0.9369999766349792
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.929783284664154,0.9307999610900879,0.9297833442687988,0.9308000206947327
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.933616578578949,0.9350999593734741,0.9336166381835938,0.9351000189781189
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9355999231338501,0.9360999464988708,0.9355999827384949,0.9361000061035156
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.934833288192749,0.9351999163627625,0.9348333477973938,0.9351999759674072
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9375665783882141,0.9375999569892883,0.9375666379928589,0.9376000165939331
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9340165853500366,0.936199963092804,0.9340166449546814,0.9362000226974487
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9322665929794312,0.9347999691963196,0.9322666525840759,0.9348000288009644
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.9897165894508362,0.9769999384880066,0.989716649055481,0.9769999980926514
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.9878166317939758,0.9761999249458313,0.9878166913986206,0.9761999845504761
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.9917832612991333,0.9774999618530273,0.9917833209037781,0.9775000214576721
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.9904999136924744,0.9792999625205994,0.9904999732971191,0.9793000221252441
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9925832748413086,0.9785999655723572,0.9925833344459534,0.978600025177002
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.9923833012580872,0.9771998524665833,0.9923833608627319,0.9771999716758728
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9933332800865173,0.9786999225616455,0.9933333396911621,0.9786999821662903
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9930166006088257,0.9780999422073364,0.9930166602134705,0.9781000018119812
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9908666014671326,0.980199933052063,0.9908666610717773,0.9801999926567078
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,10,0.9376832842826843,0.9403999447822571,0.9376833438873291,0.9404000043869019
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,10,0.93996661901474,0.9413999319076538,0.9399666786193848,0.9413999915122986
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,10,0.938933253288269,0.9364999532699585,0.9389333128929138,0.9365000128746033
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,10,0.9411999583244324,0.9412999153137207,0.9412000179290771,0.9412999749183655
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,10,0.9406166076660156,0.9407999515533447,0.9406166672706604,0.9408000111579895
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,10,0.9374499320983887,0.9391999244689941,0.9374499917030334,0.9391999840736389
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,10,0.9391499161720276,0.9407999515533447,0.9391499757766724,0.9408000111579895
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,10,0.9405332803726196,0.9406999349594116,0.9405333399772644,0.9406999945640564
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,10,0.9388166069984436,0.9412999153137207,0.9388166666030884,0.9412999749183655
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",32,20,0.9854499697685242,0.9680999517440796,0.985450029373169,0.9681000113487244
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",32,20,0.9594999551773071,0.9548999667167664,0.9595000147819519,0.9549000263214111
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",32,20,0.9926666021347046,0.9758999347686768,0.9926666617393494,0.9758999943733215
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",32,20,0.9685499668121338,0.9624999165534973,0.9685500264167786,0.9624999761581421
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",32,20,0.9973832964897156,0.9800999164581299,0.9973833560943604,0.9800999760627747
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",32,20,0.971383273601532,0.9667999148368835,0.9713833332061768,0.9667999744415283
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,20,0.9791499376296997,0.9691999554634094,0.9791499972343445,0.9692000150680542
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,20,0.9865332841873169,0.9704999327659607,0.9865333437919617,0.9704999923706055
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,20,0.9915165901184082,0.9754999279975891,0.991516649723053,0.9754999876022339
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,20,0.970266580581665,0.9632999300956726,0.9702666401863098,0.9632999897003174
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,20,0.9708832502365112,0.9644999504089355,0.970883309841156,0.9645000100135803
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,20,0.9714332818984985,0.9671999216079712,0.9714333415031433,0.967199981212616
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,20,0.9925499558448792,0.976599931716919,0.9925500154495239,0.9765999913215637
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,20,0.994233250617981,0.9775999188423157,0.9942333102226257,0.9775999784469604
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,20,0.9890832901000977,0.9794999361038208,0.9890833497047424,0.9794999957084656
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,20,0.9766332507133484,0.9697998762130737,0.9766333103179932,0.9697999954223633
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,20,0.9766666293144226,0.9688999652862549,0.9766666889190674,0.9689000248908997
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,20,0.9773499369621277,0.9702999591827393,0.9773499965667725,0.970300018787384
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",32,20,0.9952166080474854,0.979699969291687,0.9952166676521301,0.9797000288963318
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",32,20,0.9962165951728821,0.9790999293327332,0.9962166547775269,0.9790999889373779
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",32,20,0.9963166117668152,0.9799999594688416,0.99631667137146,0.9800000190734863
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",32,20,0.9839165806770325,0.9747999310493469,0.9839166402816772,0.9747999906539917
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",32,20,0.9829165935516357,0.9739999175071716,0.9829166531562805,0.9739999771118164
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",32,20,0.9816999435424805,0.9715999364852905,0.9817000031471252,0.9715999960899353
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.9896332621574402,0.9736999273300171,0.989633321762085,0.9736999869346619
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.9862499237060547,0.9722999334335327,0.9862499833106995,0.9722999930381775
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9804332852363586,0.9725999236106873,0.9804333448410034,0.972599983215332
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.985766589641571,0.9708999395370483,0.9857666492462158,0.9708999991416931
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.9910832643508911,0.9744999408721924,0.9910833239555359,0.9745000004768372
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.9897165894508362,0.9740999341011047,0.989716649055481,0.9740999937057495
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9927999377250671,0.9737999439239502,0.9927999973297119,0.973800003528595
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.9920832514762878,0.976699948310852,0.9920833110809326,0.9767000079154968
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9906332492828369,0.9764999151229858,0.9906333088874817,0.9764999747276306
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.976433277130127,0.9674999117851257,0.9764333367347717,0.9674999713897705
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.9734832644462585,0.9649999141693115,0.9734833240509033,0.9649999737739563
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9766332507133484,0.9676998853683472,0.9766333103179932,0.9677000045776367
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.9751832485198975,0.9667999148368835,0.9751833081245422,0.9667999744415283
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.9758499264717102,0.9681999683380127,0.975849986076355,0.9682000279426575
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.9763332605361938,0.9673999547958374,0.9763333201408386,0.9674000144004822
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9770832657814026,0.9672999382019043,0.9770833253860474,0.9672999978065491
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.9764999151229858,0.9695999622344971,0.9764999747276306,0.9696000218391418
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9741499423980713,0.9676998853683472,0.9741500020027161,0.9677000045776367
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.9909499287605286,0.976699948310852,0.9909499883651733,0.9767000079154968
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.9911499619483948,0.9762999415397644,0.9911500215530396,0.9763000011444092
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9936332702636719,0.976599931716919,0.9936333298683167,0.9765999913215637
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.9910332560539246,0.976699948310852,0.9910333156585693,0.9767000079154968
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.9946666359901428,0.9771998524665833,0.9946666955947876,0.9771999716758728
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.9943999648094177,0.9769999384880066,0.9944000244140625,0.9769999980926514
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9933499693870544,0.9785999655723572,0.9933500289916992,0.978600025177002
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.992699921131134,0.9781999588012695,0.9926999807357788,0.9782000184059143
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9943499565124512,0.9782999157905579,0.994350016117096,0.9782999753952026
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.983716607093811,0.9713999629020691,0.9837166666984558,0.9714000225067139
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.9821832776069641,0.9697998762130737,0.9821833372116089,0.9697999954223633
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9762499332427979,0.9699999690055847,0.9762499928474426,0.9700000286102295
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.9822999238967896,0.9720999598503113,0.9822999835014343,0.972100019454956
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.983383297920227,0.9746999144554138,0.9833833575248718,0.9746999740600586
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.9823832511901855,0.9716999530792236,0.9823833107948303,0.9717000126838684
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9836665987968445,0.9726999402046204,0.9836666584014893,0.9726999998092651
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.983116626739502,0.9720999598503113,0.9831166863441467,0.972100019454956
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9767499566078186,0.9701999425888062,0.9767500162124634,0.9702000021934509
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.9940832853317261,0.9792999625205994,0.9940833449363708,0.9793000221252441
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.993733286857605,0.9804999232292175,0.9937333464622498,0.9804999828338623
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9931499361991882,0.9803999662399292,0.993149995803833,0.980400025844574
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.9932665824890137,0.9795999526977539,0.9932666420936584,0.9796000123023987
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.9919165968894958,0.9811999201774597,0.9919166564941406,0.9811999797821045
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.994583249092102,0.9800999164581299,0.9945833086967468,0.9800999760627747
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9955165982246399,0.9802999496459961,0.9955166578292847,0.9803000092506409
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.9915665984153748,0.98089998960495,0.9915666580200195,0.98089998960495
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9934166073799133,0.9795999526977539,0.9934166669845581,0.9796000123023987
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",32,20,0.9887166023254395,0.9728999137878418,0.9887166619300842,0.9728999733924866
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",32,20,0.9877666234970093,0.9764999151229858,0.987766683101654,0.9764999747276306
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",32,20,0.9881332516670227,0.9743999242782593,0.9881333112716675,0.974399983882904
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",32,20,0.9901832938194275,0.9761999249458313,0.9901833534240723,0.9761999845504761
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",32,20,0.98499995470047,0.975399911403656,0.9850000143051147,0.9753999710083008
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",32,20,0.9891666173934937,0.9773999452590942,0.9891666769981384,0.977400004863739
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",32,20,0.9888166189193726,0.9770999550819397,0.9888166785240173,0.9771000146865845
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",32,20,0.9885332584381104,0.9749999642372131,0.9885333180427551,0.9750000238418579
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",32,20,0.9885332584381104,0.9761999249458313,0.9885333180427551,0.9761999845504761
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",64,20,0.9843499660491943,0.9711999297142029,0.9843500256538391,0.9711999893188477
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",64,20,0.9445666074752808,0.9430999159812927,0.9445666670799255,0.9430999755859375
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",64,20,0.9936165809631348,0.9769999384880066,0.9936166405677795,0.9769999980926514
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",64,20,0.9501999616622925,0.9471999406814575,0.9502000212669373,0.9472000002861023
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",64,20,0.9984166026115417,0.9790999293327332,0.9984166622161865,0.9790999889373779
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",64,20,0.9552165865898132,0.9529999494552612,0.955216646194458,0.953000009059906
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,20,0.980949878692627,0.9698999524116516,0.9809499979019165,0.9699000120162964
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,20,0.9904499650001526,0.9713999629020691,0.9904500246047974,0.9714000225067139
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,20,0.9900332689285278,0.9739999175071716,0.9900333285331726,0.9739999771118164
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,20,0.9584832787513733,0.9552999138832092,0.9584833383560181,0.955299973487854
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,20,0.9584499597549438,0.9548999667167664,0.9584500193595886,0.9549000263214111
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,20,0.9574165940284729,0.9543999433517456,0.9574166536331177,0.9544000029563904
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,20,0.9941833019256592,0.9747999310493469,0.994183361530304,0.9747999906539917
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,20,0.995533287525177,0.976699948310852,0.9955333471298218,0.9767000079154968
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,20,0.9960832595825195,0.9785999655723572,0.9960833191871643,0.978600025177002
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,20,0.9656665921211243,0.9615999460220337,0.965666651725769,0.9616000056266785
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,20,0.9616332650184631,0.9584999680519104,0.9616333246231079,0.9585000276565552
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,20,0.9636833071708679,0.9604999423027039,0.9636833071708679,0.9605000019073486
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",64,20,0.9961499571800232,0.9799999594688416,0.996150016784668,0.9800000190734863
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",64,20,0.9947999119758606,0.9794999361038208,0.9947999715805054,0.9794999957084656
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",64,20,0.9964999556541443,0.981499969959259,0.9965000152587891,0.9815000295639038
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",64,20,0.9691832661628723,0.9638999700546265,0.9691833257675171,0.9639000296592712
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",64,20,0.9695665836334229,0.9667999148368835,0.9695666432380676,0.9667999744415283
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",64,20,0.9686499238014221,0.9638999700546265,0.9686499834060669,0.9639000296592712
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9885832667350769,0.9720999598503113,0.9885833263397217,0.972100019454956
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.9838166236877441,0.9717999696731567,0.9838166832923889,0.9718000292778015
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9896665811538696,0.9722999334335327,0.9896666407585144,0.9722999930381775
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.99031662940979,0.9727999567985535,0.9903166890144348,0.9728000164031982
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.9862332940101624,0.9729999303817749,0.9862333536148071,0.9729999899864197
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.9914832711219788,0.9725999236106873,0.9914833307266235,0.972599983215332
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.9854332804679871,0.9752999544143677,0.9854333400726318,0.9753000140190125
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.9876666069030762,0.9728999137878418,0.987666666507721,0.9728999733924866
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.992183268070221,0.9729999303817749,0.9921833276748657,0.9729999899864197
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9602499604225159,0.9572999477386475,0.9602500200271606,0.9573000073432922
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.9656499624252319,0.9615999460220337,0.9656500220298767,0.9616000056266785
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9633832573890686,0.9565999507904053,0.9633833169937134,0.95660001039505
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.9648166298866272,0.9584999680519104,0.964816689491272,0.9585000276565552
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.9629333019256592,0.9563999176025391,0.962933361530304,0.9563999772071838
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.962649941444397,0.9594999551773071,0.9626500010490417,0.9595000147819519
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.964533269405365,0.9609999656677246,0.9645333290100098,0.9610000252723694
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.9648332595825195,0.9620999693870544,0.9648333191871643,0.9621000289916992
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.9655499458312988,0.9620999693870544,0.9655500054359436,0.9621000289916992
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9930166006088257,0.9755999445915222,0.9930166602134705,0.975600004196167
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.9946832656860352,0.9782999157905579,0.9946833252906799,0.9782999753952026
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9926332831382751,0.9749999642372131,0.9926333427429199,0.9750000238418579
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.9940499663352966,0.9772999286651611,0.9940500259399414,0.9772999882698059
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.9907999634742737,0.9773999452590942,0.9908000230789185,0.977400004863739
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.9946666359901428,0.9788999557495117,0.9946666955947876,0.9789000153541565
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.9883165955543518,0.9767999649047852,0.9883166551589966,0.9768000245094299
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.9948666095733643,0.9797999262809753,0.994866669178009,0.9797999858856201
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.9944499135017395,0.9781999588012695,0.9944499731063843,0.9782000184059143
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9697666168212891,0.9634999632835388,0.9697666764259338,0.9635000228881836
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.9719666242599487,0.9650999307632446,0.9719666838645935,0.9650999903678894
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9709332585334778,0.9653999209403992,0.9709333181381226,0.965399980545044
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.9692165851593018,0.9639999270439148,0.9692166447639465,0.9639999866485596
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.973099946975708,0.968299925327301,0.9731000065803528,0.9682999849319458
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.9713166356086731,0.9689999222755432,0.9713166952133179,0.968999981880188
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.9725332856178284,0.9667999148368835,0.9725333452224731,0.9667999744415283
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.971049964427948,0.9656999111175537,0.9710500240325928,0.9656999707221985
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.9710332751274109,0.9657999277114868,0.9710333347320557,0.9657999873161316
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9951999187469482,0.9788999557495117,0.995199978351593,0.9789000153541565
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.9957499504089355,0.9802999496459961,0.9957500100135803,0.9803000092506409
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9952166080474854,0.9787999391555786,0.9952166676521301,0.9787999987602234
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.9948499202728271,0.9788999557495117,0.9948499798774719,0.9789000153541565
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.9933832883834839,0.9793999195098877,0.9933833479881287,0.9793999791145325
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.9960999488830566,0.9785999655723572,0.9961000084877014,0.978600025177002
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.9959166049957275,0.9789999127388,0.9959166646003723,0.9789999723434448
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.9946999549865723,0.98089998960495,0.994700014591217,0.98089998960495
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.9971832633018494,0.9811999201774597,0.9971833229064941,0.9811999797821045
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",64,20,0.9754999279975891,0.9685999155044556,0.9754999876022339,0.9685999751091003
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",64,20,0.976183295249939,0.9693999290466309,0.9761833548545837,0.9693999886512756
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",64,20,0.9736832976341248,0.9680999517440796,0.9736833572387695,0.9681000113487244
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",64,20,0.9757499694824219,0.9701999425888062,0.9757500290870667,0.9702000021934509
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",64,20,0.9760832786560059,0.9707999229431152,0.9760833382606506,0.97079998254776
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",64,20,0.976099967956543,0.9702999591827393,0.9761000275611877,0.970300018787384
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",64,20,0.9785499572753906,0.9692999124526978,0.9785500168800354,0.9692999720573425
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",64,20,0.9781999588012695,0.9701999425888062,0.9782000184059143,0.9702000021934509
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",64,20,0.9750332832336426,0.970099925994873,0.9750333428382874,0.9700999855995178
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'adam'}",28,20,0.9810499548912048,0.9687999486923218,0.9810500144958496,0.9688000082969666
+"{'num_layers': 1, 'capa0_neuronas': 32, 'optimizer': 'sgd'}",28,20,0.926516592502594,0.9288999438285828,0.9265166521072388,0.9289000034332275
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'adam'}",28,20,0.9935999512672424,0.9767999649047852,0.9936000108718872,0.9768000245094299
+"{'num_layers': 1, 'capa0_neuronas': 64, 'optimizer': 'sgd'}",28,20,0.9347000122070312,0.934999942779541,0.9347000122070312,0.9350000023841858
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'adam'}",28,20,0.9967499375343323,0.9790999293327332,0.996749997138977,0.9790999889373779
+"{'num_layers': 1, 'capa0_neuronas': 128, 'optimizer': 'sgd'}",28,20,0.9378999471664429,0.9390999674797058,0.9379000067710876,0.9391000270843506
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,20,0.9855166077613831,0.9701999425888062,0.9855166673660278,0.9702000021934509
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,20,0.9874666333198547,0.9733999371528625,0.9874666929244995,0.9733999967575073
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,20,0.9876499176025391,0.9736999273300171,0.9876499772071838,0.9736999869346619
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,20,0.9412332773208618,0.9409999847412109,0.9412333369255066,0.9409999847412109
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,20,0.9383665919303894,0.9383999109268188,0.9383666515350342,0.9383999705314636
+"{'num_layers': 2, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,20,0.9403999447822571,0.9395999312400818,0.9404000043869019,0.9395999908447266
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,20,0.9918332695960999,0.9763999581336975,0.9918333292007446,0.9764000177383423
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,20,0.9949166178703308,0.9775999188423157,0.9949166774749756,0.9775999784469604
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,20,0.9905166029930115,0.9780999422073364,0.9905166625976562,0.9781000018119812
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,20,0.9474499225616455,0.9461999535560608,0.9474499821662903,0.9462000131607056
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,20,0.9467499256134033,0.9490999579429626,0.9467499852180481,0.9491000175476074
+"{'num_layers': 2, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,20,0.9455832839012146,0.9458999633789062,0.9455833435058594,0.945900022983551
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32}",28,20,0.9962165951728821,0.977899968624115,0.9962166547775269,0.9779000282287598
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64}",28,20,0.9926666021347046,0.977899968624115,0.9926666617393494,0.9779000282287598
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128}",28,20,0.995533287525177,0.9817999601364136,0.9955333471298218,0.9818000197410583
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32}",28,20,0.9511165618896484,0.952299952507019,0.951116681098938,0.9523000121116638
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64}",28,20,0.9503666162490845,0.9511999487876892,0.9503666758537292,0.951200008392334
+"{'num_layers': 2, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128}",28,20,0.9510332942008972,0.9484999179840088,0.951033353805542,0.9484999775886536
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9831499457359314,0.9681999683380127,0.9831500053405762,0.9682000279426575
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9847499132156372,0.9705999493598938,0.984749972820282,0.9706000089645386
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9877666234970093,0.9719999432563782,0.987766683101654,0.972000002861023
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.9904165863990784,0.9728999137878418,0.9904166460037231,0.9728999733924866
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.9872832894325256,0.9716999530792236,0.9872833490371704,0.9717000126838684
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9802666306495667,0.9714999198913574,0.9802666902542114,0.9714999794960022
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9900665879249573,0.973599910736084,0.990066647529602,0.9735999703407288
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.99073326587677,0.9729999303817749,0.9907333254814148,0.9729999899864197
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9860832691192627,0.9738999605178833,0.9860833287239075,0.9739000201225281
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9496333003044128,0.9470999240875244,0.9496333599090576,0.9470999836921692
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9482832551002502,0.9461999535560608,0.948283314704895,0.9462000131607056
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9473832845687866,0.943899929523468,0.9473833441734314,0.9438999891281128
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.9442332983016968,0.9418999552726746,0.9442333579063416,0.9419000148773193
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.9470999240875244,0.9434999227523804,0.9470999836921692,0.9434999823570251
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9519832730293274,0.9508999586105347,0.9519833326339722,0.9509000182151794
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9463999271392822,0.94569993019104,0.946399986743927,0.9456999897956848
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.9500166177749634,0.9496999382972717,0.9500166773796082,0.9496999979019165
+"{'num_layers': 3, 'capa0_neuronas': 32, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9477332830429077,0.9470999240875244,0.9477333426475525,0.9470999836921692
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9901499152183533,0.9763999581336975,0.990149974822998,0.9764000177383423
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9931166172027588,0.9773999452590942,0.9931166768074036,0.977400004863739
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9928832650184631,0.9759999513626099,0.9928833246231079,0.9760000109672546
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.9929999113082886,0.9757999181747437,0.9929999709129333,0.9757999777793884
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.9863332509994507,0.9758999347686768,0.9863333106040955,0.9758999943733215
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9948832988739014,0.9782999157905579,0.9948833584785461,0.9782999753952026
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9964332580566406,0.9768999814987183,0.9964333176612854,0.9768999814987183
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.994316577911377,0.9767999649047852,0.9943166375160217,0.9768000245094299
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9938333034515381,0.9771998524665833,0.9938333630561829,0.9771999716758728
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9565332531929016,0.9521999359130859,0.9565333127975464,0.9521999955177307
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9552165865898132,0.9521999359130859,0.955216646194458,0.9521999955177307
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9536166191101074,0.9493999481201172,0.9536166787147522,0.949400007724762
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.95416659116745,0.9528999328613281,0.9541666507720947,0.9528999924659729
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.9556666016578674,0.9560999274253845,0.9556666612625122,0.9560999870300293
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9533166289329529,0.9516999125480652,0.9533166885375977,0.95169997215271
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9571332931518555,0.953999936580658,0.9571333527565002,0.9539999961853027
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.95538330078125,0.9542999267578125,0.9553833603858948,0.9542999863624573
+"{'num_layers': 3, 'capa0_neuronas': 64, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9569332599639893,0.953999936580658,0.956933319568634,0.9539999961853027
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9970666170120239,0.978399932384491,0.9970666766166687,0.9783999919891357
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9965165853500366,0.979699969291687,0.9965166449546814,0.9797000288963318
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9923166036605835,0.9776999354362488,0.9923166632652283,0.9776999950408936
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.9961665868759155,0.977899968624115,0.9961666464805603,0.9779000282287598
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.9946832656860352,0.9786999225616455,0.9946833252906799,0.9786999821662903
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9959999322891235,0.9802999496459961,0.9959999918937683,0.9803000092506409
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9965332746505737,0.9805999398231506,0.9965333342552185,0.9805999994277954
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.9973165988922119,0.981499969959259,0.9973166584968567,0.9815000295639038
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'adam', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9933165907859802,0.9792999625205994,0.993316650390625,0.9793000221252441
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 32}",28,20,0.9612666368484497,0.9571999311447144,0.9612666964530945,0.9571999907493591
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 64}",28,20,0.9608832597732544,0.9569999575614929,0.9608833193778992,0.9570000171661377
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 32, 'capa2_neuronas': 128}",28,20,0.9569332599639893,0.9567999243736267,0.956933319568634,0.9567999839782715
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 32}",28,20,0.9620499610900879,0.9589999914169312,0.9620500206947327,0.9589999914169312
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 64}",28,20,0.961283266544342,0.9582999348640442,0.9612833261489868,0.958299994468689
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 64, 'capa2_neuronas': 128}",28,20,0.9577999114990234,0.9548999667167664,0.9577999711036682,0.9549000263214111
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 32}",28,20,0.9634499549865723,0.9598999619483948,0.963450014591217,0.9599000215530396
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 64}",28,20,0.9608999490737915,0.9602999687194824,0.9609000086784363,0.9603000283241272
+"{'num_layers': 3, 'capa0_neuronas': 128, 'optimizer': 'sgd', 'capa1_neuronas': 128, 'capa2_neuronas': 128}",28,20,0.9615666270256042,0.9576999545097351,0.961566686630249,0.9577000141143799
