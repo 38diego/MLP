@@ -136,15 +136,15 @@ hps = {'num_layers': capas, 'capa0_neuronas': neuronas_capa1, 'optimizer': optim
       {'num_layers': capas, 'capa0_neuronas': neuronas_capa1, 'optimizer': optimizador, 'capa1_neuronas': neuronas_capa2, 'capa2_neuronas': neuronas_capa3}
 
 
-mlp_path = "MLP"
-folder_name = f"GS_E{epocas}BS_{lotes}"
+folder_path = f"GS_E{epocas}BS_{lotes}"
 
-folder_path = os.path.join(mlp_path, folder_name)
+#folder_path = os.path.join(mlp_path, folder_name)
 
 for root, dirs, files in os.walk(folder_path):
             for dir_name in dirs:
                 dir_path = os.path.join(root, dir_name)
                 for file_name in os.listdir(dir_path):
+                    print(file_name)
                     if file_name.startswith("trial"):
                         trial = os.path.join(dir_path, file_name)
                         with open(trial, "r") as f:
@@ -172,7 +172,7 @@ model.add(Dense(10, activation="sigmoid"))  # Asumiendo una salida binaria, camb
 model.compile(optimizer=optimizer, loss="binary_crossentropy", metrics=["accuracy"])
 
 # Cargar pesos
-model.load_weights(f"MLP/GS_E{epocas}BS_{lotes}/trial_{trial_id}/checkpoint.weights.h5")
+model.load_weights(f"GS_E{epocas}BS_{lotes}/trial_{trial_id}/checkpoint.weights.h5")
 
 import io
 
