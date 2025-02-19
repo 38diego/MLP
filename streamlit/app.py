@@ -102,7 +102,7 @@ st.markdown(
 ## Todos los modelos
 """)
 
-df = pd.read_csv("MLP\streamlit\output.csv")#.drop(columns="Unnamed: 0")
+df = pd.read_csv("streamlit\output.csv")#.drop(columns="Unnamed: 0")
 
 col1, col2 = st.columns([0.7,0.3])
 
