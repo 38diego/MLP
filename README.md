@@ -28,6 +28,8 @@ Sitúate en el directorio raíz del proyecto (`/workspaces/MLP/`) y ejecuta:
 streamlit run streamlit/app.py
 ```
 
+O ir a [Streamlit Cloud](https://mpldeep.streamlit.app/)
+
 ## 🧠 Funcionalidades Detalladas
 
 ### Ejercicio 1: Optimización
